@@ -1,0 +1,29 @@
+Socket programming commands
+----------------------------
+Create executables
+
+g++ server.cpp -o server
+./server
+
+g++ client.cpp -o client
+./client
+
+----------------------------
+
+Required Header Files for Socket Programming
+When programming with sockets in C or C++, specific header files must be included for the necessary declarations.
+
+For Linux/Unix Systems
+----------------------
+<sys/socket.h>
+ <netinet/in.h>
+ <arpa/inet.h>
+ <unistd.h>
+ <string.h>
+ <errno.h>
+
+For Windows Systems
+--------------------
+<winsock2.h>
+<ws2tcpip.h>
+<windows.h>
